@@ -1,0 +1,62 @@
+body{
+
+    background-image: url(image.jpg);
+}
+nav{
+    margin: 0;
+    
+}
+
+nav ul {
+background-color: black;
+color: white;
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+nav li{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.boutonprincipal{
+    font-size: 18px;
+}
+
+.boutonprincipal:hover{
+    background-color: rgb(231, 121, 31);
+}
+.menu{
+    display: inline-block;
+    position: relative;
+}
+.onglethtmlenfant{
+    display: none;
+    background-color: rgb(231, 121, 31);
+    text-decoration: none;
+}
+
+.menu:hover .onglethtmlenfant{
+    display: inline-block;    
+}
+
+.onglethtmlenfant .lien:hover{
+    border: 1px solid white;
+   
+}
+.onglethtmlenfant .lien2:hover{
+    border: 1px solid white;
+   
+}
+.onglethtmlenfant .lien3:hover{
+    border: 1px solid white;
+
+}
+.boutonprincipal:visited{
+    text-decoration: none;
+}
+
+
