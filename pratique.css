@@ -1,15 +1,15 @@
+/*MENU HTML*/
 body{
 
     background-image: url(image.jpg);
 }
 nav{
-    margin: 0;
-    
+    margin: 0;    
 }
 
 nav ul {
 background-color: black;
-color: white;
+color:white;
 display: flex;
 justify-content: space-around;
 padding-top: 20px;
@@ -19,15 +19,10 @@ padding-bottom: 20px;
 nav li{
     text-decoration: none;
     list-style-type: none;
-    color: white;
+    
 }
-
 .boutonprincipal{
-    font-size: 18px;
-}
-
-.boutonprincipal:hover{
-    background-color: rgb(231, 121, 31);
+    font-size: 35px;
 }
 .menu{
     display: inline-block;
@@ -37,26 +32,70 @@ nav li{
     display: none;
     background-color: rgb(231, 121, 31);
     text-decoration: none;
+    font-size: 25px;
+}
+
+.onglethtmlenfant a {
+    color:white;
+    text-decoration: none;
 }
 
 .menu:hover .onglethtmlenfant{
-    display: inline-block;    
+    display:block; 
 }
 
-.onglethtmlenfant .lien:hover{
-    border: 1px solid white;
-   
-}
-.onglethtmlenfant .lien2:hover{
-    border: 1px solid white;
-   
-}
-.onglethtmlenfant .lien3:hover{
-    border: 1px solid white;
 
+
+/*MENU CSS*/
+
+.boutonprincipalcss{
+    font-size: 35px;
 }
-.boutonprincipal:visited{
+
+.menucss{
+    display: inline-block;
+    position: relative;
+}
+
+.onglethtmlenfantcss{
+    display: none;
+    background-color: rgb(99, 99, 235);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.menucss:hover .onglethtmlenfantcss{
+    display: block;
+}
+
+.onglethtmlenfantcss a {
+    color: white;
     text-decoration: none;
 }
 
 
+/*MENU JAVASCRIPT*/
+
+.menujava{
+    display: inline-block;
+    position: relative;
+}
+
+.boutonprincipaljava{
+    font-size: 35px;
+}
+
+.ongletenfantjava{
+    display: none;
+    background-color: rgb(221, 210, 52);
+    font-size: 25px;
+}
+
+.menujava:hover .ongletenfantjava{
+    display: block;
+}
+
+.ongletenfantjava a {
+    color:white;
+    text-decoration: none;
+}
